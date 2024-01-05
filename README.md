@@ -9,4 +9,4 @@ Contributions to improve the website are welcome. Feel free to fork the reposito
 If you encounter any issues or have suggestions for improvements, please create an issue in the repository. Your feedback is valuable!
 
 # Preview
-![Hero section preview]([http://url/to/img.png](https://github.com/Patryka99/VitaFlex/blob/main/img/1.png)https://github.com/Patryka99/VitaFlex/blob/main/img/1.png)
+![Hero section preview](https://github.com/Patryka99/VitaFlex/blob/main/img/1.png)
