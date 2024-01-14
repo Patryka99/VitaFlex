@@ -12,8 +12,9 @@
     />
 
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/queries.css" />
 
-    <title>VitaFlex</title>
+    <title>VitaFlex &mdash; Better life!</title>
   </head>
   <body>
     <header class="header">
@@ -22,13 +23,42 @@
       /></a>
       <nav class="main-nav">
         <ul class="main-nav-list">
-          <li><a href="#" class="main-nav-link">About us</a></li>
-          <li><a href="#" class="main-nav-link">Services</a></li>
-          <li><a href="#" class="main-nav-link">Testimonials</a></li>
-          <li><a href="#" class="main-nav-link">Pricing</a></li>
-          <li><a href="#" class="main-nav-link nav-cta">Try for Free</a></li>
+          <li><a href="#about" class="main-nav-link">About us</a></li>
+          <li><a href="#services" class="main-nav-link">Services</a></li>
+          <li>
+            <a href="#testimonials" class="main-nav-link">Testimonials</a>
+          </li>
+          <li><a href="#pricing" class="main-nav-link">Pricing</a></li>
+          <li><a href="#cta" class="main-nav-link nav-cta">Try for Free</a></li>
         </ul>
       </nav>
+
+      <button class="btn-mobile-nav">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="32"
+          height="32"
+          fill="#1c1c1c"
+          viewBox="0 0 256 256"
+          class="menu-outline"
+        >
+          <path
+            d="M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM40,72H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z"
+          ></path>
+        </svg>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="32"
+          height="32"
+          fill="#1c1c1c"
+          viewBox="0 0 256 256"
+          class="close-outline"
+        >
+          <path
+            d="M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z"
+          ></path>
+        </svg>
+      </button>
     </header>
 
     <main>
@@ -55,7 +85,7 @@
         </div>
       </section>
 
-      <section class="section-about">
+      <section class="section-about" id="about">
         <div class="container">
           <span class="subheading">About us</span>
           <h2 class="heading-secondary">Empower Your Best Life</h2>
@@ -124,7 +154,7 @@
               vibrant life.
             </p>
           </div>
-          <div class="step-img-box">
+          <div class="step-img-box row3">
             <img
               src="./img/steps/step-2.webp"
               alt="Tailored Treatment Plan"
@@ -295,7 +325,7 @@
         </div>
       </section>
 
-      <section class="section-offer">
+      <section class="section-offer" id="services">
         <div class="container">
           <span class="subheading">Our services</span>
           <h2 class="heading-secondary">Unlock the Potential of Your Body</h2>
@@ -331,7 +361,7 @@
         </div>
       </section>
 
-      <section class="section-testimonail">
+      <section class="section-testimonail" id="testimonials">
         <div class="container">
           <span class="subheading">Testimonials</span>
         </div>
@@ -398,7 +428,7 @@
         </div>
       </section>
 
-      <section class="section-pricing">
+      <section class="section-pricing" id="pricing">
         <div class="pricing-grid grid--center-v">
           <div class="pricing-info">
             <span class="subheading">Pricing</span>
@@ -477,7 +507,7 @@
         </div>
       </section>
 
-      <section class="section-cta">
+      <section class="section-cta" id="cta">
         <div class="container">
           <div class="cta">
             <div class="cta-text-box">
