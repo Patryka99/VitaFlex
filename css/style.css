@@ -105,7 +105,7 @@ body {
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
 }
-
+/* 1 rem  = default (16px) --- default 24 */
 .grid:not(:last-child) {
   margin-bottom: 9.6rem;
 }
