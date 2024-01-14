@@ -293,7 +293,7 @@ body {
   color: #555;
 }
 
-.icon-mobile-nav[name="close-outline"] {
+.close-outline {
   display: none;
 }
 

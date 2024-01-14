@@ -167,10 +167,10 @@
     transform: translateX(0);
   }
 
-  .nav-open .icon-mobile-nav[name="close-outline"] {
+  .nav-open .close-outline {
     display: block;
   }
-  .nav-open .icon-mobile-nav[name="menu-outline"] {
+  .nav-open .menu-outline {
     display: none;
   }
 
